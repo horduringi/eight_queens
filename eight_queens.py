@@ -15,6 +15,7 @@ def print_chess_board(chess_board):
 def eight_queens(col, chess_board):
     print_chess_board(chess_board)
     if col == 8:
+        raw_input('Solution found. Press enter to quit.')
         return True
     for row in range(0,8):
         if not conflict(row, col, chess_board):
