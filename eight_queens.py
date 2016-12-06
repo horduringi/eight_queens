@@ -1,9 +1,14 @@
 import os
 from time import sleep
 
+if os.name == 'nt':
+    clear_screen = 'cls'
+elif os.name == 'posix':
+    clear_screen = 'clear'
+
 def print_chess_board(chess_board):
     sleep(0.1)
-    os.system('clear')
+    os.system(clear_screen)
     for row in chess_board:
         print '|'.join(row)
 
