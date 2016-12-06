@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['eight_queens.py'],
-             pathex=['/Users/hordur/Dev/Qlik/eight_queens'],
+             pathex=['C:\\Users\\IEUser\\Dev\\eight_queens'],
              binaries=None,
              datas=None,
              hiddenimports=[],
