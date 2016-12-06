@@ -62,3 +62,5 @@ def get_empty_chess_board():
 
 def solve_eight_queens():
     eight_queens(0, get_empty_chess_board())
+
+solve_eight_queens()
